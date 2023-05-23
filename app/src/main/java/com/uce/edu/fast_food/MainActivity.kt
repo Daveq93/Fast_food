@@ -22,12 +22,13 @@ class MainActivity : AppCompatActivity() {
 
         var txtBuscar = findViewById<SearchView>(R.id.txtBuscar)
 
-
-
         boton1.setOnClickListener{
+
             txtView.text = "Muestra busqueda"
-            Toast.makeText(this, "hola ejem", Toast.LENGTH_SHORT).show()
-          var f = Snackbar.make(boton1,"Este es otro mensaje",Snackbar.LENGTH_LONG)
+            Toast.makeText(this, "Ejemplo de un toast", Toast.LENGTH_SHORT).show()
+
+            var f = Snackbar.make(boton1,"Ejemplo de snackbar",Snackbar.LENGTH_LONG)
+
             f.setBackgroundTint(ContextCompat.getColor(this,R.color.snakColor)).show()
         }
     }

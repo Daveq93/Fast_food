@@ -24,14 +24,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <SearchView
+    <android.widget.SearchView
         android:id="@+id/txtBuscar"
         android:layout_width="303dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/search1"
+        android:backgroundTint="#817B7B"
         android:textColor="@color/white"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -40,7 +42,8 @@
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:layout_marginStart="8dp"
-        android:layout_marginBottom="534dp"
+        android:layout_marginBottom="530dp"
+        android:background="@drawable/boton1"
         android:backgroundTint="#FB0707"
         android:contentDescription="enter"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,13 +52,15 @@
 
     <TextView
         android:id="@+id/txtView2"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/search2"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/txtBuscar"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/txtBuscar" />
 

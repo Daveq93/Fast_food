@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fast_food</string>
+    <string name="searchSMS">Buscar</string>
 </resources>
